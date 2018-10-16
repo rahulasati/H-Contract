@@ -1,0 +1,28 @@
+{
+  "name": "spin-wish",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@version/react-router-v3": "^1.0.0",
+    "axios": "^0.18.0",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "moment": "^2.22.2",
+    "react": "^16.4.2",
+    "react-bootstrap-sweetalert": "^4.4.1",
+    "react-datepicker": "^1.6.0",
+    "react-dom": "^16.4.2",
+    "react-loadable": "^5.5.0",
+    "react-router": "^3.2.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.5",
+    "sweetalert": "^2.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start:production": "serve -p 3005 -s build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
